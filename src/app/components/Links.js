@@ -13,22 +13,6 @@ export default function Links(props) {
 
     return (
         <div className='space-y-3 flex flex-col'>
-          {/* <Link href={github} target='_blank'>
-            <div className='w-full rounded-xl bg-[#24292F] border-2 border-[#24292F] hover:bg-transparent hover:text-[#24292F] duration-200 px-5 py-4 text-white space-x-3 flex items-center'>
-              <FontAwesomeIcon icon={faGithub} className='text-xl'/>
-              <span>
-                Github
-              </span>
-            </div>
-          </Link> */}
-          <Link href={portofolio} target='_blank'>
-            <div className='w-full rounded-xl bg-transparent dark:bg-transparent border-2 border-[#181818] dark:border-slate-200 hover:bg-main-1 hover:text-white dark:hover:text-[#181818] dark:hover:bg-slate-200 dark:hover:border-neutral-200 px-5 py-4 text-black dark:text-white space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Portofolio")} onMouseLeave={() => setHovered(false)}>
-              <FontAwesomeIcon icon={faFile} className='text-xl'/>
-              <span>
-                Owner Portfolio
-              </span>
-            </div>
-          </Link>
           <Link href={antelocode} target='_blank'>
             <div className='w-full rounded-xl bg-transparent dark:bg-transparent border-2 border-[#181818] dark:border-slate-200 hover:bg-main-1 hover:text-white dark:hover:text-[#181818] dark:hover:bg-slate-200 dark:hover:border-neutral-200 px-5 py-4 text-black dark:text-white space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Antelocode")} onMouseLeave={() => setHovered(false)}>
               <FontAwesomeIcon icon={faFile} className='text-xl'/>
