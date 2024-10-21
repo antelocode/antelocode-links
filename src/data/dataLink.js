@@ -1,5 +1,5 @@
 export const portofolio = "https://aryatjiutanto.vercel.app/";
-export const antelocode = "https://antelocode.vercel.app/";
+export const antelocode = "https://antelocode.my.id/";
 export const github = "https://github.com/antelocode";
 export const fiverr = "https://www.fiverr.com/antelocode";
 export const youtube = "https://www.youtube.com/@antelocode";
